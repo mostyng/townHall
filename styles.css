@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+html{
+	margin: 0 auto;
+	padding: 0 0;
+	overflow-x: hidden;
+}
+
+body{
+	margin: 0 auto;
+	padding: 0 0;
+	font-family: 'Work Sans', sans-serif ;
+
+}
+
+h1{
+	font-size: 240px;
+	color: white;
+/*	padding-left: 10%;*/
+	padding-top: 12%;
+	letter-spacing: -10px;
+	font-weight:bold;
+	text-align: center;
+	font-weight: 900;
+	font-style: normal;
+
+}
+
+h2{
+	font-size: 36px;
+	color: #FF6666;
+	font-weight: bold;
+	letter-spacing: -2px;
+	margin-top: 30%;
+	margin-bottom: 1%;
+
+}
+
+h3{
+	font-size: 64px;
+	color: #0033CC;
+	letter-spacing: -1px;
+	padding-top: 1%;
+	font-weight: bold;
+	text-align: center;
+
+
+}
+
+
+.left{
+	padding-left: 10%;
+	text-align: left;
+	position: relative;
+	width: 40%;
+	display: inline-block;
+}
+
+.dumb{
+	padding-top: 5%;
+	width: 18%;
+}
+
+.right{
+	position: relative;
+	margin-left: 50%;
+	padding-right: 10%;
+	width: 40%;
+	text-align: left;
+	display: inline-block;
+
+}
+
+
+.leftMock{
+	position: absolute;
+	left:0;
+	display: inline-block;
+	width: 50%;
+	padding-top: 10%;
+	height: auto;
+}
+
+.rightMock{
+	position: absolute;
+	right:0;
+	display: inline-block;
+	width: 50%;
+	padding-top: 10%;
+	height: auto;
+}
+
+.centerMock{
+	padding-top: 30%;
+	position: relative;
+	margin: 0 auto;
+	padding-left: 5%;
+	width: 90%;
+	height: auto;
+	display: inline-block;
+}
+
+.cmp{
+	padding-top: 7%;
+	width: 80vw;
+	margin-left: 5%;
+}
+
+p{
+	font-size: 21px;
+	width: 40%;
+}
+
+.column p{
+	padding-left: 30%;
+	width: 60%;
+}
+
+.ziploc{
+
+}
+
+.first{
+	width: 100%;
+	height: 100vh;
+	background-color: #FF6666;
+}
+
+
+.row{
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	left: 5.5%;
+
+}
+
+.column {
+    float: left;
+    width: 28%;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    align-content: center;
+}
+
+
+.bottom{
+	margin-top: 10%;
+	width: 100%;
+	height: 100vh;
+	background-color: #0033CC;
+
+
+}
+
